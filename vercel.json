@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/biometric/:path*",
+      "destination": "/api/index"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
